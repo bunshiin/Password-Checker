@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+/* Özel renk tanımlamaları */
+
+:root {
+    --main-color: #121212;
+    --second-color: #fff;
+}
+
+
+/* Container Başlangıç */
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(2);
+}
+
+
+/* Container Bitiş */
+
+
+/* Input Başlangıç */
+
+.input-box {
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+}
+
+.input-box input {
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    color: #fff;
+    background: transparent;
+    outline: none;
+}
+
+
+/* Input Bitiş */
+
+
+/* Button Başlangıç */
+
+button {
+    background: transparent;
+    border: 0;
+    outline: none;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+}
+
+button img {
+    width: 35px;
+}
+
+
+/* Button Bitiş */
+
+
+/* Message Başlangıç */
+
+#message {
+    display: none;
+    position: absolute;
+    bottom: -30px;
+    color: #fff;
+    font-size: 15px;
+}
+
+
+/* Message Bitiş */
